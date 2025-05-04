@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: mariatutorbot
-    env: python
-    plan: free
-    buildCommand: "echo Build complete"
-    startCommand: "python bot.py"
-    runtime: python
-    pythonVersion: 3.10.8
